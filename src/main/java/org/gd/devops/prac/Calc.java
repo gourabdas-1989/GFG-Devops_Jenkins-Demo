@@ -19,6 +19,8 @@ public class Calc {
 		Calc myCalc=new Calc();
 		System.out.println("Sum = "+myCalc.sum(15, 5));
 		System.out.println("Difference = "+myCalc.subtract(15, 5));
+		System.out.println("Division = "+myCalc.division(15, 5));
+		
 	}
 
 }
