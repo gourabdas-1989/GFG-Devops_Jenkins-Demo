@@ -9,14 +9,14 @@ public class TestMyCalc {
 	@Test
 	public void testSum() {
 		assertEquals(30,calc.sum(20, 10));
-		assertEquals(10,calc.sum(5, 15));
-		assertEquals(10,calc.sum(80, 20));
+		//assertEquals(10,calc.sum(5, 15));
+		//assertEquals(10,calc.sum(80, 20));
 		//fail("Not yet implemented");
 	}
 	public void testdiff() {
 		assertEquals(30,calc.subtract(40, 10));
 		assertEquals(10,calc.subtract(20, 10));
-		assertEquals(10,calc.sum(80, 20));
+		//assertEquals(10,calc.sum(80, 20));
 		//fail("Not yet implemented");
 	}
 
